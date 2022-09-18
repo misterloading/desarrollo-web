@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+    color: beige;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+header img{
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 1%;
+    border-radius: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+article{
+    padding: 20px 0 10px 0;
+    border-bottom: 2px dotted rgb(147, 147, 147);
+}
+
+article h2{
+    float: left;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+article p{
+    margin-left: 20%;
+}
+
+article p, article ul{
+    margin-left: 35%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+article ul li{
+    margin-left: 15px;
+    list-style: square;
+}
+
+footer{
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    background-color: darkslategrey;
+    color: azure;
+    text-align: center;
+}
+
+footer a:visited{
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
